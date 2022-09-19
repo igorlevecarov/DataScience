@@ -1,0 +1,9 @@
+WARNING:py.warnings:C:\ProgramData\Anaconda3\lib\site-packages\statsmodels\regression\linear_model.py:1434: RuntimeWarning: invalid value encountered in sqrt
+  return rho, np.sqrt(sigmasq)
+
+WARNING:py.warnings:C:\ProgramData\Anaconda3\lib\site-packages\statsmodels\regression\linear_model.py:1434: RuntimeWarning: invalid value encountered in sqrt
+  return rho, np.sqrt(sigmasq)
+
+WARNING:py.warnings:C:\ProgramData\Anaconda3\lib\site-packages\statsmodels\regression\linear_model.py:1434: RuntimeWarning: invalid value encountered in sqrt
+  return rho, np.sqrt(sigmasq)
+
