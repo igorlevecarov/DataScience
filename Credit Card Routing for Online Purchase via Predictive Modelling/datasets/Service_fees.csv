@@ -1,0 +1,5 @@
+﻿name,fee_success,fee_failed
+Moneycard,5,2
+Goldcard,10,5
+UK_Card,3,1
+Simplecard,1,0.5

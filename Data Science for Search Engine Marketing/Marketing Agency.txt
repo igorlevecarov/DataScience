@@ -1,0 +1,21 @@
+jupyter notebook --notebook-dir=D:/
+   
+1. Fully automated data collection  ETL pipelines (Google Analytics, Social Media, Google Search Console, Google Sheets, CRM)
+   Building functions to automate analysis (Impressions, Clicks, CTR, Conversation rate, ROI)
+
+2. Design and build Data Warehouse for Visualization and Analytics (Google Data Studio, Looker, Custom Dashboard)
+
+3. EDA analytics dashboards: 
+  - time series charts, aggregate and pivot tables, heat maps, pie chars and combined charts (categorical and numerical) 
+  - Analyzing marketing campaign performance (Conversion Rate, Retention rate, ROI). 
+
+4. A/B testing (Identifying KPIS, Hypothesis testing, Statistical significance, confidence intervals)
+
+5. Predictive Analytics using AI and Machine Learning use cases: 
+ - Predicting click-through-rates (CTR)  
+ - Predicting customer propensity (visitor, leads, clicks) 
+ - Forecasting supply and demand (how much will customer spend in the next 30 days) 
+ - Segmenting customer groups based on behavioural data (demographics, product purchases, product segmentation for bundling, Age, Gender, Location, Past interaction with the business, Marketing channels)
+ - Recommending products and/or content usign NLP (Natural Language Processing)
+ - Customer Lifetime Value (CLV) prediction
+ 
