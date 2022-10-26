@@ -15,7 +15,8 @@ jupyter notebook --notebook-dir=D:/
  - Predicting click-through-rates (CTR)  
  - Predicting customer propensity (visitor, leads, clicks) 
  - Forecasting supply and demand (how much will customer spend in the next 30 days) 
- - Segmenting customer groups based on behavioural data (demographics, product purchases, product segmentation for bundling, Age, Gender, Location, Past interaction with the business, Marketing channels)
+ - Segmenting customer groups based on behavioural data 
+   (demographics, product purchases, product segmentation for bundling, Age, Gender, Location, Past interaction with the business, Marketing channels)
  - Recommending products and/or content usign NLP (Natural Language Processing)
  - Customer Lifetime Value (CLV) prediction
  
