@@ -2,37 +2,58 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <title>Predict Insurance Bill</title>
-  <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
-<link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
-<link href='https://fonts.googleapis.com/css?family=Hind:300' rel='stylesheet' type='text/css'>
-<link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
-<link type="text/css" rel="stylesheet" href="{{ url_for('static', filename='./style.css') }}">
-  
+  <title>Credit Card Routing for Online Purchase via Predictive Modelling</title>
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
- <div class="login">
-	<h1>Predict Insurance Bill</h1>
-
-     <!-- Form to enter new data for predictions  -->
-    <form action="{{ url_for('predict')}}"method="POST">
-      <input type="text" name="age" placeholder="Age" required="required" /><br>
-    	<input type="text" name="sex" placeholder="Sex" required="required" /><br>
-        <input type="text" name="bmi" placeholder="BMI" required="required" /><br>
-        <input type="text" name="children" placeholder="Children" required="required" /><br>
-        <input type="text" name="smoker" placeholder="Smoker" required="required" /><br>
-        <input type="text" name="region" placeholder="Region" required="required" /><br>
-
-        <button type="submit" class="btn btn-primary btn-block btn-large">Predict</button>
+  <div class="text-center">
+    <h1>Finding the best possible PSP</h1>
+    <form action="{{ url_for('predict')}}" method="POST">
+      <img src="cards.png" width="200" />
+      <div class="form-group">
+        <select name="country" class="form-control" required="required">
+          <option value="">Select Country</option>
+          <option value="0">Germany</option>
+          <option value="1">Switzerland</option>
+          <option value="2">Austria</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <input type="number" class="form-control" name="amount" placeholder="Amount" required="required" />
+      </div>
+      <div class="form-group">
+        <select name="3D_secured" class="form-control" required="required">
+          <option value="">3D Secure</option>
+          <option value="0">No</option>
+          <option value="1">Yes</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <select name="card" class="form-control" required="required">
+          <option value="">Card</option>
+          <option value="0">Master</option>
+          <option value="1">Visa</option>
+          <option value="2">Dinners</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <input type="number" class="form-control" name="weekday" placeholder="Weekday" required="required" />
+      </div>
+      <div class="form-group">
+        <input type="number" class="form-control" name="hour" placeholder="Hour" required="required" />
+      </div>
+      <button type="submit" class="btn btn-primary">Predict</button>
     </form>
-
-   <br>
-   <br>
-  
-   
- </div>
- {{pred}}
-
+    <br>
+    <br>
+    <p class="text-center">{{pred}}</p>
+  </div>
 </body>
 </html>
